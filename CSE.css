@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    border: border-box;
+}
+
+
+.faculty{
+    height: 1000px;
+    background-image: url("ab.jpg");
+    background-size: cover;
+}
+
+.content{
+    height:400px;
+    display:flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+.comppic{
+    /* width: 45%; */
+    height:200px;
+    width: 200px;
+    background-color: rgba(11, 11, 11, 0.544);
+    background-image: url("gen_info.jpg");
+    background-size: contain;
+    padding: 5px;
+    margin-left: 2cm;
+}
+
+.comppic img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.content-1{
+    width: 80%;
+    
+}
+.content-1 p{
+    margin: 10px;
+    font-size: larger;
+}
+.content-1 h1{
+    margin: 10px;
+    font-size: 1cm;
+}
+
+
+
+.contact{
+    margin-top: 40px;
+    color: #043927;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+
+.hero-section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+
+
+.box-1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box{
+  width: 300px;
+  height: 200px;
+  padding: 100px;
+  height: 52px;
+  /* border: 2px solid black; */
+  border-radius: 15px;
+}
+.box button{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(173, 200, 191);
+    color: #043927;
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 50px; */
+}
+.box button:hover{
+  background-color: black;
+  color: yellowgreen;
+  
+}
+.box button a{
+  color: #043927;
+}
+.box button a:hover{
+  background-color: black;
+  color: yellowgreen;
+}
+
+
+
+.time-table{
+    
+    background: #c4cbe5;
+    /* margin-left: 10px; */
+    margin-top: 1px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, Garuda, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* *font-size: small;
+    *font: x-small; */
+}

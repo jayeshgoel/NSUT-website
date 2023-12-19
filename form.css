@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+.body{
+    
+    display: grid;
+    justify-content: center;
+    
+}
+
+.Navigation-Bar{
+    
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.984);
+    padding: 25px;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 1cm;
+    
+}
+.Navigation-Bar a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.Navigation-Bar a:hover{
+    color: rgba(255, 255, 255, 0.767);
+}
+.Academics:hover .dropdown-content{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.897);
+    margin-top:15px;
+    padding: 10px;
+    border-radius:10px ;
+}
+.dropdown-content{
+    display: none;
+}
+.dropdown-content a{
+    display: block;
+    margin: 10px;
+    
+}
+
+
+
+
+
+.main{
+    margin-top: 3cm;
+    width: 10cm;
+    border: 2px solid black;
+    padding: 10px;
+}
+.main h2{
+    text-align: center;
+    background-color: #003263;
+    margin: 0px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-style: arial;
+    
+}
+.Navigation-Bar{
+    
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.984);
+    padding: 15px;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+.Navigation-Bar a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.Navigation-Bar a:hover{
+    color: rgba(255, 255, 255, 0.767);
+}
+input{
+    margin-top: 5px;
+    margin-left: 3px ;
+    width: 95%;
+}
+.button{
+    text-align: center;
+}
+.submit-button{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    border: 0px;
+    width: max-content;
+    padding: 10px;
+}
+.submit-button:hover{
+    cursor: pointer;
+}

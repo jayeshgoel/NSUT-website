@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+.main{
+    display: flex;
+}
+
+.Navigation-Bar{
+    
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.934);
+    padding: 25px;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 1cm;
+    
+}
+.Navigation-Bar a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.Navigation-Bar a:hover{
+    color: rgba(255, 255, 255, 0.767);
+}
+.Academics:hover .dropdown-content{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.897);
+    margin-top:15px;
+    padding: 10px;
+    border-radius:10px ;
+}
+.dropdown-content{
+    display: none;
+}
+.dropdown-content a{
+    display: block;
+    margin: 10px;
+    
+}
+
+
+.Part-1{
+    background-color: rgba(0, 0, 0, 0.914);
+    color: rgba(255, 255, 255, 0.942);
+    width: 10cm;
+    height:inherit;
+}
+.Part-1 h1{
+    margin-bottom: 5cm;
+}
+.Part-1-link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+}
+.Part-1-link:hover
+{
+    color: rgba(150, 144, 144, 0.956);
+}.Part-1 h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5cm;
+}
+.Part-2{
+    width: 100%;
+    
+  
+}
+.Part-2 h1{
+    word-spacing: 3px;
+    text-align: center;
+    margin: 1cm;
+    margin-top: 3cm;
+    font-size: 1.5cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sub-Part-2{
+    margin: 40px;
+}
+.img-columns{
+    width: 100%;
+    display: flex;
+    
+}
+.img-columns img{
+    width: 47%;
+    height: 10cm;
+    margin: 20px;
+    
+}
+.img-columns img:hover{
+    transition: transform 0.5s ;
+    transform: scale(1.1);
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    border: border-box;
+}
+
+
+.Navigation-Bar{
+    
+  display: flex;
+  background-color: #003262;
+  padding: 25px;
+  justify-content: space-around;
+  font-size: 20px;
+  height: 1cm;
+  
+}
+.Navigation-Bar a{
+  text-decoration: none;
+  color: whitesmoke;
+
+}
+.Navigation-Bar a:hover{
+  color: rgba(255, 255, 255, 0.767);
+}
+.Academics:hover .dropdown-content{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.897);
+  margin-top:15px;
+  padding: 10px;
+  border-radius:10px ;
+}
+.dropdown-content{
+  display: none;
+}
+.dropdown-content a{
+  display: block;
+  margin: 10px;
+  
+}
+
+
+
+.box-1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box-2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box-3{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box button{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(173, 200, 191);
+  color: #043927;
+  font-size: larger;
+  border: 2px solid black;
+  border-radius: 15px;
+  /* padding: 50px; */
+}
+.box button:hover{
+  background-color: black;
+  color: yellowgreen;
+  
+}
+
+.box button a{
+  color: #043927;
+}
+.box button a:hover{
+  background-color: black;
+  color: yellowgreen;
+}
+.box{
+  width: 300px;
+  height: 200px;
+  
+  padding: 100px;
+  height: 52px;
+  /* border: 2px solid black; */
+  border-radius: 15px;
+}
+
+
+.hero-section2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+

@@ -1,0 +1,350 @@
+*{
+    margin: 0px;;
+}
+
+.Part2{
+    background-image: url("bg-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    padding-top: 20px;
+    animation: imageTransition 20s infinite ;
+}
+@keyframes imageTransition {
+    0%
+    {
+        background-image:url(bg-1.jpeg) ;
+    }
+    20%{
+        background-image: url(bg-2.jpeg);
+    }
+    40%
+    {
+        background-image: url(bg-3.jpeg);
+    }
+    60%
+    {
+        background-image: url(bg-4.jpeg);
+    }
+    80%
+    {
+        background-image: url(bg-5.jpeg);
+    }
+}
+.subPart-2{
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sub1-part-2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.sub-sub1-part-2 p{
+    font-size: 15px;
+    margin: 10px;
+}
+.nsut_name_and_logo{
+    width: 650px;
+    margin-right: 2em;
+}
+.G20_logo{
+    width: 150px;
+}
+.sub2-part-2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.sub2-part-2 marquee{
+    width: 780px;
+    margin: 5px;
+}
+.sub2-part-2 p{
+    margin: 5px;
+    color: red;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.sub2-part-2 audio{
+    height: 25px;
+    margin: 5px ;
+}
+
+
+
+.Navigation-Bar{
+    
+  display: flex;
+  
+  padding: 25px;
+  justify-content: space-around;
+  font-size: 20px;
+  height: 1cm;
+  
+}
+.Navigation-Bar a{
+  text-decoration: none;
+  color: whitesmoke;
+
+}
+.Navigation-Bar a:hover{
+  color: rgba(255, 255, 255, 0.767);
+}
+.Academics:hover .dropdown-content{
+  display: block;
+  
+  margin-top:0px;
+  padding: 10px;
+  padding-top: 4px;
+  border-radius:10px ;
+}
+.dropdown-content{
+  display: none;
+}
+.dropdown-content a{
+  display: block;
+  margin: 10px;
+  
+}
+
+.Part3{
+    margin-left: 10%;
+    margin-right: 10%;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+#About_NSUT_Heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#Know_More{
+    margin-top: 20px;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid black;
+}
+#Know_More:hover{
+    background-color: black;
+    color: white;
+}
+.Part4{
+    background-color: #003262;;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.subPart-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sub-subPart-4{
+    margin: 20px;
+    background-color: white;
+}
+.heading-sub-subPart-4{
+    text-align: left;
+    background-color: rgb(1, 184, 245);
+    padding: 20px;
+}
+.content-sub-subPart-4{
+    display: flex;
+    margin: 20px;
+}
+#VC_Img{
+    width: 20%;
+}
+
+.subPart-5{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+#Latest-News-Box{
+    background-color: none;
+}
+.sub-subPart-5{
+    width: 6cm;
+    background-color: #EEFFFF;
+    padding-bottom: 30px;
+}
+.sub-subPart-5 p{
+    margin: 10px;
+    margin-top: 20px;
+
+}
+.nsut_logo{
+    border: 1px;
+    width: 6cm;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.View_all_News{
+    margin: 15px;
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    border-color: none;
+}
+
+.Latest_News{
+    
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Ranking{
+    margin: 10px;
+}
+
+
+
+.Part6{
+    background-image: url("Part-6-BackGround.jpeg");
+    color: white;
+    margin-bottom: 20px;
+}
+.subPart-6{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.sub-subPart-6{
+    width: 5cm;
+}
+
+.Heading-sub-subPart-6{
+    margin-bottom: 20px ;
+}
+.Links-sub-subPart-6{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Heading_Admissions{
+    text-align: center;
+    padding: 50px;
+}
+
+.Part7{
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 2em;
+}
+.subPart-7{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+.sub-subPart-7{
+    
+    width: 300px;
+}
+.sub-subPart-7 img{
+    margin-bottom: 2em;
+}
+
+.sub-subPart-7 p{
+    margin: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.sub-subPart-7 button{
+    background-color: #FFFFFF;
+    
+    width: 180px;
+    height: 52px;
+    border: 2px solid black;
+}
+
+
+.Part8{
+    width: 100%;
+    margin: 0px;
+}
+
+
+.Part9{
+    margin-top: 1cm;
+    margin-bottom: 1cm
+}
+.subPart-9{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+}
+.sub-subPart-9{
+    height: 360px;
+    border: 2px solid black;
+    padding: 0px;
+    text-align: center;
+}
+.sub-subPart-9 h2{
+    padding: 10px;
+    width: 350px;
+    border: 0px;
+    background-color: #003262;
+    color: white;
+    
+}
+
+
+
+.Part10{
+    background-color: #003262;
+    color: white;
+    padding-top: 10px;
+}
+
+.subPart-10{
+    display: grid;
+    grid-template-columns: repeat(4,1fr)    ;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sub-subPart-10{
+    padding: 30px;
+    
+}
+.sub-subPart-10 h4{
+    /* margin-top: 2em; */
+    margin-bottom: 1em;
+}
+.sub-subPart-10 a{
+    display: block;
+    margin: 10px;
+}
+.sub-subPart-10 hr{
+    border: dotted;
+
+    color: gray
+}
+.sub-subPart-10 p{
+    margin-top: 1em;
+}
+.Links-sub-subPart-10{
+    padding-right: 5em  ;
+    border-right: dotted;
+}
+
+span{
+    color: #006FCE;
+}
+a:hover{
+    cursor: pointer;
+}

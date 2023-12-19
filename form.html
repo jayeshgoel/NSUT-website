@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="Navigation-Bar">
+        <div class="Navigation-Bar-item">
+            <a href="nsut1.html">Home</a>
+        </div>
+        <div class="Navigation-Bar-item Academics">
+            <a href="">Academics</a>
+            <div class="dropdown-content">
+              <a href="Btech.html">B.Tech</a>
+              <a href="Barch.html">B.Arch</a>
+              <a href="Bdesign.html">B.Design</a>
+            </div>
+        </div>
+        <div class="Navigation-Bar-item">
+            <a href="form.html">Admission</a>
+        </div>
+        <div class="Navigation-Bar-item">
+            <a href="Gallery1.html">Gallery</a>
+        </div>
+    </div>  
+    <div class="body">
+        <div class="main">
+            
+            <h2>Registeration Form</h2>
+            <form onsubmit="alert('SUBMITTED SUCCESFULLY')">
+                
+                <div>
+                    <label for="name"> Name : </label>
+                    <input type="text" name="myName" id="name" required>
+                </div>
+                <br>
+                <div>
+                    Roll-Number: <input type="text" name="Roll-Number" required>
+                </div>
+                <br>
+                <div>
+                    Email: <input type="email" name="myEmail" required>
+                </div>
+
+                <br>
+                <div>
+                    Date: <input type="date" name="myDate" required>
+                </div>
+        
+                <br>
+                <div>
+                    Gender: Male <input type="radio" name="myGender" value="m"> Female <input type="radio" name="myGender" value="f" >
+                    Other <input type="radio" name="myGender" value="o">
+                </div>
+
+                <br>
+
+                <div>
+                    Password : <input type="password" name="password" required>
+                </div>
+                <br>
+                <div class="button">
+                    <input class="submit-button" type="submit" value="Submit Now">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
